@@ -123,9 +123,11 @@ body {
   color: white;
   text-align: center;
   height: 550px;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/background.jpg');
+  /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/waterfall.gif'); */
+  background: url('/waterfall.gif');
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
+  background-size: 1100px;
 }
 
 .banner h1 {
@@ -145,10 +147,7 @@ body {
 
 .main {
   padding: 30px;
+  background: white;
 }
-
-
-
-
 
 
