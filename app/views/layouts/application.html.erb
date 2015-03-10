@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SquareFractal Business Integration</title>
+  <title>SquareFractal</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 
-  <%= favicon_link_tag '/logo.png' %>
+  <%= favicon_link_tag '/logo_uncropped.png' %>
 </head>
 <body>
-<%= image_tag '/logo.png' %>
+
+
+<header class="header group">
+  <div class="header-wrap group">
+
+    <h1 class="header-logo">
+      <a href="#"><%= image_tag '/logo.png' %></a>
+    </h1>
+
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#">Signup</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Demo</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
 <%= yield %>
 
 </body>
