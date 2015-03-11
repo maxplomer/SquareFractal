@@ -12,6 +12,9 @@
  *= require_tree .
  */
 
+@font-face { font-family: OpenSans; src: url('/fonts/OpenSans-Regular.TTF'); } 
+@font-face { font-family: OpenSans; font-weight: bold; src: url('/fonts/OpenSans-Bold.TTF'); } 
+
 /* --- RESET --- */
 
 html, body, header, footer, section, article, div,
@@ -29,7 +32,7 @@ form, label {
 body {
   background: rgb(239,238,236);
   color: #333;
-  font-family: sans-serif;
+  font-family: OpenSans;
   line-height: normal;
   font-size: 16px;
 }
@@ -131,12 +134,12 @@ body {
 }
 
 .banner h1 {
-  padding-top: 160px;
+  padding-top: 115px;
   font-size: 45px;
 }
 
 .banner h2 {
-  padding-top: 22px;
+  padding-top: 30px;
   font-size: 18px;
   line-height: 1.5;
 }
